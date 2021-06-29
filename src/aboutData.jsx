@@ -25,7 +25,7 @@ const aboutData = [  {
   name: 'andie perez',
   blurb: 'lover of all things dark & moody',
   img: 
-  <img className="portImage" src={andie} alt='andrea perez'
+  <img className="portImage" id="andie" src={andie} alt='andrea perez'
   />
 },
   
