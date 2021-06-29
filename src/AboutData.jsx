@@ -9,7 +9,7 @@ const aboutData = [  {
   name: 'ryan kim',
   blurb: 'i am ryan',
   img: 
-  <img className="portImage" src={ryan} alt='ryan'
+  <img className="portImage" id='ryan' src={ryan} alt='ryan'
   />
 },
   
