@@ -21,7 +21,7 @@ const aboutData = [  {
   name: 'Jackie Dinh',
   blurb: 'My name is Jackie Dinh. I enjoy snowboarding and paddle boarding',
   img: 
-  <img className="portImage" src={jackie} alt='jackie'
+  <img className="portImage" id="jackie" src={jackie} alt='jackie'
    />
 },
   

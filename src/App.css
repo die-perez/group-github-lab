@@ -1,5 +1,6 @@
 @-webkit-keyframes shadow-pop-tr{0%{-webkit-box-shadow:0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e;box-shadow:0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e;-webkit-transform:translateX(0) translateY(0);transform:translateX(0) translateY(0)}100%{-webkit-box-shadow:1px -1px #3e3e3e,2px -2px #3e3e3e,3px -3px #3e3e3e,4px -4px #3e3e3e,5px -5px #3e3e3e,6px -6px #3e3e3e,7px -7px #3e3e3e,8px -8px #3e3e3e;box-shadow:1px -1px #3e3e3e,2px -2px #3e3e3e,3px -3px #3e3e3e,4px -4px #3e3e3e,5px -5px #3e3e3e,6px -6px #3e3e3e,7px -7px #3e3e3e,8px -8px #3e3e3e;-webkit-transform:translateX(-8px) translateY(8px);transform:translateX(-8px) translateY(8px)}}@keyframes shadow-pop-tr{0%{-webkit-box-shadow:0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e;box-shadow:0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e;-webkit-transform:translateX(0) translateY(0);transform:translateX(0) translateY(0)}100%{-webkit-box-shadow:1px -1px #3e3e3e,2px -2px #3e3e3e,3px -3px #3e3e3e,4px -4px #3e3e3e,5px -5px #3e3e3e,6px -6px #3e3e3e,7px -7px #3e3e3e,8px -8px #3e3e3e;box-shadow:1px -1px #3e3e3e,2px -2px #3e3e3e,3px -3px #3e3e3e,4px -4px #3e3e3e,5px -5px #3e3e3e,6px -6px #3e3e3e,7px -7px #3e3e3e,8px -8px #3e3e3e;-webkit-transform:translateX(-8px) translateY(8px);transform:translateX(-8px) translateY(8px)}}
 
+@-webkit-keyframes flip-scale-up-ver{0%{-webkit-transform:scale(1) rotateY(0);transform:scale(1) rotateY(0)}50%{-webkit-transform:scale(2.5) rotateY(90deg);transform:scale(2.5) rotateY(90deg)}100%{-webkit-transform:scale(1) rotateY(180deg);transform:scale(1) rotateY(180deg)}}@keyframes flip-scale-up-ver{0%{-webkit-transform:scale(1) rotateY(0);transform:scale(1) rotateY(0)}50%{-webkit-transform:scale(2.5) rotateY(90deg);transform:scale(2.5) rotateY(90deg)}100%{-webkit-transform:scale(1) rotateY(180deg);transform:scale(1) rotateY(180deg)}}
 .App {
   text-align: center;
 }
@@ -56,9 +57,12 @@
   transform: rotate(360deg);
 }
 
-<<<<<<< HEAD
-=======
 #andie:hover {
   -webkit-animation:shadow-pop-tr .3s cubic-bezier(.47,0.000,.745,.715) both;animation:shadow-pop-tr .3s cubic-bezier(.47,0.000,.745,.715) both
 }
->>>>>>> 7414dfcc37401007e27310385da14d81e10a0875
+
+
+#jackie:hover {
+	-webkit-animation: flip-scale-up-ver 0.5s linear both;
+	        animation: flip-scale-up-ver 0.5s linear both;
+}
