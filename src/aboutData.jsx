@@ -31,9 +31,9 @@ const aboutData = [  {
   
 {
   name: "Matthew Velasco",
-  blurb: "Matthew Velasco is a rookie coder looking to break it in big to the hotshot coding industry. Matthew has 9 weeks of professional training and experience in the field of computer coding. Matthew is a proud owner of one Roborovski Hamster. Matthew doesn't know what else to add to this but I'm paddin it out.",
+  blurb: "looking to create new worlds with code",
   img: 
-  <img className="portImage" src={mv} alt="Matthew" 
+  <img className="portImage" id="matt" src={mv} alt="Matthew" 
   />
 },
 ]
