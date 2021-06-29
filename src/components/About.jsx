@@ -1,5 +1,5 @@
 export default function About(props) {
-  const personData = props.aboutData.map((person, index) => {
+  const personData = props.AboutData.map((person, index) => {
     console.log(props.person)
     return(
       <div key={`project-${index}`}>
